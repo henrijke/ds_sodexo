@@ -1,0 +1,141 @@
+html, body {
+    width: 1824px;
+    height: 984px;
+    font-family: 'Raleway', sans-serif;
+    background: url('background.jpg') no-repeat center fixed;
+    background-size:cover;
+}
+#csTable{}
+
+#optionsDiv{
+    min-width:175px;
+    position:absolute;
+    width:10%;
+    background-color: whitesmoke;
+    border-radius:15px;
+    color: black;
+    height:auto;
+    left: 45%;
+    top:50%;
+    text-align: center;
+}
+
+#restaurantHandler h1{
+    font-size: 200%;
+
+    color:white;
+}
+#restaurantHandler h2{
+    font-size: 200%;
+    color:white;
+}
+
+#restaurantSelect{
+    border-style: none;
+}
+option{
+    border-style: none;
+}
+#optionsDiv button{
+    margin: 15px 0 15px 0;
+    width: 60%;
+    padding:15px;
+    border-style: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-style: unset;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+#optionsDiv button:hover{
+    cursor:pointer;
+}
+
+.specialProperties{}
+.milk{
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+}
+.glut{
+    border-radius: 5px;
+    background-color: peru;
+    color: white;
+}
+.lact{
+    border-radius: 5px;
+    background-color: seagreen;
+    color: white;
+}
+.lowl{
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: white;
+}
+
+
+#optionsDiv select{
+    -webkit-appearance: none;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+    /*border-style: solid;
+    border-color: darkslateblue;*/
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+table{
+    margin: 35px 5% 0 5%;
+
+    background-color: #dddddd;
+    border:none;
+    border-collapse: collapse;
+    /* border: 2px solid darkgrey; */
+    align-content: center;
+    width:90%;
+    height:60%;
+    font-size: 175%;
+    text-align: center;
+
+
+
+}
+
+table tr{
+    height: 35px;
+}
+table tr:nth-child(even){
+    background-color: lightgrey;
+}
+table th{
+    padding: 8px;
+    background-color: slategray;
+    color: white;
+}
+table td{
+    padding: 8px;
+
+}
+
+
+button{
+    margin: 15px 0 15px 0;
+    width: 60%;
+    padding:15px;
+    border-style: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-style: unset;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+#menuDiv {
+    text-align: center;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    min-width: 500px;
+}

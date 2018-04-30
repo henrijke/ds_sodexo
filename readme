@@ -1,0 +1,25 @@
+Kerkesin tehä tota mobiili puolta semi pitkälle
+
+a. Hakee nyt ruokalistan päivän mukaan ja displayaa sen sivulla.
+b. Se PB2 homma on nyt setupattu joten jos sitä tarvi ni voi käyttää (jtn erroria se heitti et IO is not defined joten se socket.io varmaan puuttuu tms)
+
+TODO
+
+2. DS puoli tekemättä mutta se melkein sit vaa copy pastee tost mobiilipuolelta
+3. Mobiilipuolelle se et voi tallentaa niit omii erikoisruokavalioit localstorageen esim et se näyttää sit vaa ne (ainoa puuttuva asia mobiilista CSS lisäks)
+4. DS puolelle se et hakee uuden listan kun päivä vaihtuu
+5. Sama select kun mobiilissa DS puolelle et voi valita ravintolan (ohjeissa myös et jonkun hallintasovelluksen kautta pystyis vaihtaa kaikkia ruutuja miten haluaa?)
+
+
+NICE TO HAVE (näitä piti tehdä kolme jotta saa 5/5) nii tässä ne mitä ite mietin mut feel free to tehä mitä haluut
+
+1. Sovelluksen on näytettävä (kellonajan perusteella) onko lounasta saatavilla vai ei.                                  DONE
+2. Mobiilisovelluksen käyttäjän profiilin on pysyttävä selaimen muistissa yli useamman istunnon. (localstorage)
+3. Laajenna tuettujen erityisruokavalioiden määrittelyä mobiilisovelluksessa seuraaviin:
+   Kala-kasvissyöjä (ei lihaa)
+   Kasvissyöjä (lakto-ovo-vegetaristi)
+
+Tai sit tekis noi et vois arvioida mut sit se vaatis varmaa jonku DB tai sit sen hallintasovelluksen joka hakee sen ruokalistan kerran päivässä ja se mobiili & DS
+hakee sen ruokalistan siltä hallintasovellukselta ja se mobiiliappi sit aina lähettää sillä PB2 avulla messagen et tää ratettiin ja se tallentuu sit
+sinne hallintasovelluksen muistiin. Vois olla semi nice, mut sit toi nykynen mobiilisovellus pitäs vähän muuttaa.
+

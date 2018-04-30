@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sodexo Mobile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="../pb2_client.js"></script>
+    <script defer src="mobile.js"></script>
+</head>
+<body>
+<div id="menuOptionsHolder">
+<div id="optionsButtons">
+    <button id="showDate">Valikko</button>
+
+    <button id="preferencesButton"><i class="fa fa-cogs"></i></button>
+</div>
+
+
+<div id="calendar"></div>
+
+<div id="optionsDiv">
+    <select id="restaurantSelect">
+        <option value="16363">Bulevardi</option>
+        <option value="16364">Hämeentie</option>
+        <option value="16365">Leiritie</option>
+        <option value="16435">Vanha Maantie</option>
+        <option value="16448">Vanha Viertotie</option>
+    </select>
+    <br>
+    <select id="languageSelect">
+        <option value="fi">Suomi</option>
+        <option value="en">English</option>
+        <option value="se">Svenska</option>
+    </select>
+    <br>
+    <button id="getMenuButton">Hae</button>
+</div>
+</div>
+<div id="menuDiv">
+    <table id="menuOutput">
+
+    </table>
+</div>
+
+<div id="preferences" class="hidden">
+    <button id="closeButton"><i class="fa fa-times-circle"></i></button>
+    <p>Valitse tästä jos sinulla on jokin erityisruokavalio</p>
+    <input id="gluteenitonCheckbox" class="checkbox" type="checkbox" value="Gluteeniton">Gluteeniton<br>
+    <input id="maidotonCheckbox" type="checkbox" class="checkbox" value="Maidoton">Maidoton<br>
+    <input id="laktoositonCheckbox" type="checkbox" class="checkbox" value="Laktoositon">Laktoositon<br>
+    <input id="vegaaniCheckbox" type="checkbox" class="checkbox" value="Vegaani">Vegaani
+</div>
+
+
+</body>
+</html>

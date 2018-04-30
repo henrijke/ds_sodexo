@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sodexo</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--
+    <script defer src="../pb2_client.js"></script>
+    -->
+
+</head>
+<body>
+
+<div id="optionsDiv">
+    <h2>Valitse ravintola</h2>
+    <br>
+    <select id="restaurantSelect">
+        <option value="16363">Bulevardi</option>
+        <option value="16364">Hämeentie</option>
+        <option value="16365">Leiritie</option>
+        <option value="16435">Vanha Maantie</option>
+        <option value="16448">Vanha Viertotie</option>
+    </select>
+    <br>
+    <button id="getMenuButton">Hae</button>
+</div>
+
+<div id="menuDiv">
+    <table id="menuOutput">
+
+    </table>
+</div>
+
+
+<script defer src="ds.js"></script>
+</body>
+</html>
